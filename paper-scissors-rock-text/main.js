@@ -13,6 +13,8 @@ let computeResult = function(humanChoice) {
     // the line above is using something cool from ES6: template strings
     // please note that backquote (`) is NOT the same as single-quote (')
 
+    console.log(`human choice: ${options[humanIndex]}; computer index: ${options[computerIndex]}`)
+
     let result
     if (humanIndex === computerIndex) {
         result = 0
